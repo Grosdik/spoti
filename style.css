@@ -1,0 +1,298 @@
+.left-block{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 180px;
+    height: 1870px;
+    
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 180px;
+    background: orange;
+    width: 1695px;
+
+}
+.right-block{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: black;
+    width: 335px;
+    height: 1870px;
+}
+.bottom-line{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: black;
+    width: 1880px;
+    height: 100px;
+}
+.top-line{
+    position: fixed;
+    top: 0;
+    left: 180px;
+    width: 2825px;
+    height: 50px;
+    background: gray;
+}
+.albom{
+    height: 315px;
+    width: 100%;
+    background: gray;
+}
+.tracks{
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(gray, 1%, black);;
+}
+.main-menu-pos{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.main-menu{
+    display: flex;
+    flex-direction: column;
+}
+.playlist-pos{
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+.playlist{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+}
+.text2{
+    margin-right: 10px;
+    font-size: 12px;
+    color: white;
+}
+.text3{
+    margin-right: 10px;
+    font-size: 16px;
+    color: grey;
+}
+.text4{
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+.text5{
+    margin-right: 10px;
+    font-size: 24px;
+    color: white;
+}
+.title-friends{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: white;
+}
+.friends-pic{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.profile{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    padding: 10px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+.friend{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+    height: 100%;
+    float: left;
+}
+.pos{
+    display: flex;
+    flex-direction: row;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    vertical-align: middle;
+}
+.music-pic{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+/* уметь тень вокруг пикчи альбома border: 1px solid silver;*/
+.alb-pic{
+    box-shadow: 0px 10px 15px 10px #000;
+}
+.alb-pos{
+    position: relative;
+    top: 75px;
+    left: 25px;
+}
+.about-alb-pos{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+}
+.about-alb{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+    height: 100%;
+    float: left;
+}
+.big-size{
+    font-size: 135px;
+    color: white;
+}
+.sup-icon-pos{
+    display: flex;
+    flex-direction: row;
+    background: gray;
+}
+.sup-icon{
+    position: relative;
+    left: 25px;
+}
+.titles-pos{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+.tracks-line-pos{
+    display: flex;
+    flex-direction: column;
+}
+.tracks-line{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+}
+.musician-name-pos{
+    font-size: 18px;
+    color: white;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.emp-div1{
+    width: 1200px;
+}
+.emp-div2{
+    width: 1230px;
+}
+.emp-div3{
+    width: 1150px;
+}
+.emp-div4{
+    height: 30px;
+}
+.line1{
+    position: absolute;
+    left: 0px;
+    width: 140px;
+}
+.line2{
+    width: 800px;
+    size: 3px;
+}
+.line3{
+    width: 75px;
+    size: 20px;
+}
+.license-pos{
+    position: relative;
+    left: 15px;
+    top: 60px;
+}
+.license{
+    display: flex;
+    flex-direction: column;
+}
+.more-pos{
+    position: relative;
+    left: 15px;
+    top: 100px;
+}
+.albom-pos{
+    position: relative;
+    top: 125px;
+    left: 15px;
+}
+.rec-albom{
+    display: flex;
+    flex-direction: row;
+}
+.mar{
+    margin-right: 25px;
+}
+.img-par1{
+    width: 23px;
+    height: 23px;
+    margin-right: 15px;
+}
+.img-par2{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.play-but{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.track-control-pos{
+    position: absolute;
+    bottom: 30px;
+    left: 850px;
+}
+.timeline-pos{
+    position: absolute;
+    bottom: 13px;
+    left: 500px;
+}
+.timeline{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+.sup-control-pos{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+}
+.sup-control{
+    display: flex;
+    flex-direction: row;
+}
